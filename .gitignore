@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.blend1
+.claude/
+
+# Your own music stays local (copyrighted tracks); only the instructions are shared.
+music/*
+!music/README.txt

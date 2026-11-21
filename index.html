@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEON DRIFT</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <canvas id="view"></canvas>
+
+  <div id="hud" class="hidden">
+    <div id="hud-tl">
+      <div class="big"><span id="spd">0</span><small> km/h</small></div>
+      <div><span id="alt">0</span> m alt</div>
+      <div id="cam">CHASE CAM</div>
+      <div id="wx"></div>
+    </div>
+    <div id="hud-tr"><span id="fps"></span></div>
+    <div id="district"><div class="name"></div><div class="flav"></div></div>
+    <div id="status"></div>
+    <div id="toast"><div class="k"></div><div class="v"></div></div>
+    <div id="hud-bl">
+      W/S thrust · A/D turn · Space/F up/down · Q/E strafe · Shift boost · C camera · V wipers · T autopilot · G land · B build · M map · P photo · R radio · N next · H hide · Esc menu
+    </div>
+  </div>
+
+  <div id="title">
+    <h1>NEON DRIFT</h1>
+    <p class="sub">a late-night drive through a city that never dries</p>
+    <p class="go">Click to start</p>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
